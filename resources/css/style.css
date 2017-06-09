@@ -108,13 +108,18 @@ height:25em;
 }
 
 
-.productgrid {display:flex;
+.productgrid {
+               display:flex;
+                justify-content:space-between;
+               width:960px;
 
          }
-.pain{display:inline-flex;
-      justify-content:space-around;
+.pain{
+      display:flex;
+      justify-content:space-between;
        align-content:center;
        margin-left:3em;
+       margin-right:3em;
      }
 
 
@@ -144,6 +149,7 @@ height:25em;
                  align-items: center;
                  margin-top:3rem;
                  margin-bottom:4rem;
+                 width:960px;
   }
   .location {
                    width:35%;
