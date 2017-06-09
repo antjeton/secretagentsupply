@@ -75,11 +75,9 @@ span{color:white;}
   .mobile-nav-container{
               display:none;
   }
-@media only screen and (max-width:1024px){
-  nav ul{display:none;}
-  .mobile nav{display:block;
-              text-align: center;}
-}
+
+
+
 
 
 .mainbanner{  padding:2em 3em;
@@ -120,14 +118,7 @@ span{color:white;}
             font-weight:bold;
 }
 
-@media only screen and (max-width:470px) {
-  .mainbanner{height:15em;}
-  .headline h4{font-size:.77rem;}
-  .headline h1{font-size:1rem;}
-  .headline{width:100%;
-            padding:1em 2em;
-            top:10em;}
-}
+
 
 
 .productgrid {
@@ -191,18 +182,60 @@ span{color:white;}
         padding:0.5rem; }
 
 
-@media only screen and (max-width:1024px) {
-  .item{width:47%;}
-  .ul.normal{display:none;}
+
+
+  @media only screen and (max-width:1024px){
+
+          .mobile nav{display:none;}
 }
-@media only screen and (max-width:470px){
+
+
+@media only screen and (max-width:959px) {
+  .mobile nav{display:block;}
+  .mobile-nav-container{display:block;
+              text-align: center;
+              background-color:firebrick;
+              color:white;
+            }
+  .item{width:90%;}
+  .normal{display:none;}
+  .mainbanner{display:100%;
+            }
+  .content{display:90%;
+}
+
+@media only screen and (max-width:470px) {
+  .mobile-nav-container{display:block;
+              text-align: center;
+              background-color:firebrick;
+              color:white;
+            }
   .productgrid{flex-wrap:wrap;}
   .item{width:90%;
            margin:auto;}
   .itemspecial2{display:none;}
   .flexcontainer{width:90%;
         margin:0.5em auto;}
+   .normal{display:none;}
+     footer{text-align:center;}
 
+
+
+
+@media only screen and (max-width:640px){
+  .mobile-nav-container{display:block;
+              text-align: center;
+              background-color:firebrick;
+              color:white;
+            }
+  .productgrid{flex-wrap:wrap;}
+  .item{width:90%;
+           margin:auto;}
+  .itemspecial2{display:none;}
+  .flexcontainer{width:90%;
+        margin:0.5em auto;}
+   .normal{display:none;}
+     footer{text-align:center;}
 }
 
 
@@ -213,7 +246,4 @@ footer{
        color:white;
        padding:5em 0;
        margin-top:4em;
-}
-@media only screen and(max-width:470px){
-  footer{text-align:center;}
 }
