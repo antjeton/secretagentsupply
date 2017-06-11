@@ -24,16 +24,20 @@ html, body{
 
 
 }
-header{
+.header{
 
         background-color:black;
         color:white;
+        padding-bottom: 0.6rem;
+        padding-top:0.6rem;
+        display:flex;
+        align-items:center;
 }
 header img{
            height:1.5rem;
            margin-left:0.5rem;
            margin-right:1rem;
-           overflow:hidden;
+           
 }
 h3{
 
